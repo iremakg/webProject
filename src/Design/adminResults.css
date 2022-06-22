@@ -1,0 +1,39 @@
+.content-table thead tr {
+    background-color: orange;
+    height: 90px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 5px solid rgb(0, 68, 68);
+  }
+  .content-table {
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 1400px;
+    overflow: hidden;
+    font-family: Arial;
+    font-weight: bold;
+  }
+  .sinavButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sinavButton button {
+    border: none;
+    background-color: orange;
+    color: #ffffff;
+  }
+  .sinavButton button:hover {
+    background-color: yellowgreen;
+  }

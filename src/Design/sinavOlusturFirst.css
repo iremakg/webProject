@@ -1,0 +1,56 @@
+.sinavOlusturFirst {
+    background-color: yellowgreen;
+    width: 1400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ders {
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+   
+  }
+  
+  .sinavOlusturFirst label {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .tur {
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    
+  }
+  .saat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    
+  }
+  .sinavFirstButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  .sinavFirstButton button {
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    width: 500px;
+    height: 30px;
+    
+    
+  }
+  .sinavFirstButton button:hover{
+      background-color: orange;
+  
+  
+      
+    }

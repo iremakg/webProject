@@ -19,9 +19,9 @@ export default function SinavOlustur() {
   const [cevapC, setCevapC] = useState("");
   const [cevapD, setCevapD] = useState("");
   const [cevap, setCevap] = useState("");
-  const [tempVize, settempVize] = useState([]); //vizeler
-  const [questionArray, setquestionArray] = useState([]); // sorular
-  const [tempFinal, settempFinal] = useState([]); //finaller
+  const [tempVize, settempVize] = useState([]); 
+  const [questionArray, setquestionArray] = useState([]); 
+  const [tempFinal, settempFinal] = useState([]);
   let vizeBool = true;
   let finalBool = true;
 
